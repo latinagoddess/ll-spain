@@ -90,7 +90,7 @@ function MobileMenu(props: MenuProps) {
           </li>
           <li onClick={() => setModalState("submit")}>
             <GoAlertFill />
-            <p>WHAT'S NEW</p>
+            <p>{"WHAT'S NEW"}</p>
           </li>
           <li onClick={() => setModalState("submit")}>
             <IoPeople />
