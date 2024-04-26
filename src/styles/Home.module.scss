@@ -1,0 +1,48 @@
+.main {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  padding: 1rem;
+
+  .title {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.4rem;
+
+    h1 {
+      font-size: 1.8rem;
+      font-weight: 400;
+      color: #191e1e;
+    }
+
+    .time {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+
+      opacity: 0.5;
+
+      svg {
+        width: 1.11rem;
+        height: 1.11rem;
+      }
+
+      p {
+        font-size: 1rem;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .comments {
+    margin-top: 2rem;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,65 @@
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 80%;
+  max-width: 20rem;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: rgb(233, 240, 243);
+
+  padding: 2rem 1rem;
+  border-radius: 0.4rem;
+
+  gap: 1rem;
+
+  svg {
+    width: 5rem;
+    height: 5rem;
+    color: #7564e5;
+
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  p {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  input {
+    width: 80%;
+    max-width: 20rem;
+    padding: 0.5rem 1rem;
+    background-color: rgb(233, 240, 243);
+    border: 2px solid rgb(129, 129, 129);
+    border-radius: 0.25rem;
+
+    color: black;
+  }
+
+  button {
+    width: 80%;
+    max-width: 20rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    background-color: #7564e5;
+    color: white;
+
+    cursor: pointer;
+  }
+}
