@@ -4,8 +4,6 @@ import React, { useState } from "react";
 import styles from "@/styles/Navbar.module.scss";
 
 import { IoMenuOutline, IoSearch, IoPeople } from "react-icons/io5";
-import { MdOutlineKey } from "react-icons/md";
-import { FaClipboardList } from "react-icons/fa6";
 import { BsChatLeftText } from "react-icons/bs";
 import { GoAlertFill } from "react-icons/go";
 
@@ -28,8 +26,8 @@ function Navbar() {
           <h3>Sptty</h3>
         </section>
         <section className={styles.rightPhone}>
-          <MdOutlineKey onClick={() => setModalState("submit")} />
-          <FaClipboardList onClick={() => setModalState("submit")} />
+          <BsChatLeftText onClick={() => setModalState("submit")} />
+          <GoAlertFill onClick={() => setModalState("submit")} />
           <IoSearch onClick={() => setModalState("submit")} />
         </section>
         <section className={styles.rightDesktop}>
@@ -51,7 +49,7 @@ function Navbar() {
             <li onClick={() => setModalState("submit")}>
               <p>Login</p>
             </li>
-            <li onClick={() => setModalState("submit")}>
+            <li onClick={() => setModalState("register")}>
               <p>Register</p>
             </li>
           </ul>

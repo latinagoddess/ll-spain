@@ -28,10 +28,12 @@
       border-radius: 50%;
       background-image: url("/images/pfp.webp");
       background-size: cover;
+      cursor: pointer;
     }
 
     h4 {
-      color: #3a61dc;
+      cursor: pointer;
+      color: #e6961f;
     }
   }
 
@@ -59,7 +61,7 @@
       overflow-wrap: break-word;
 
       a {
-        color: #3a61dc;
+        color: #e6961f;
 
         overflow-wrap: break-word;
       }
@@ -70,11 +72,11 @@
       margin: 0.5rem 0;
       background-color: #f9fafa;
       border: 1px solid rgba(0, 0, 0, 0.1);
-      border-left: 2px solid #7564e5;
+      border-left: 2px solid #e6961f;
       width: 100%;
 
       span {
-        color: #7564e5;
+        color: #e6961f;
         opacity: 0.8;
       }
     }
@@ -105,7 +107,6 @@
       }
 
       h4 {
-        color: #3a61dc;
         overflow-wrap: break-word;
         word-break: break-word;
         text-align: center;

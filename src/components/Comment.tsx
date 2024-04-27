@@ -3,6 +3,8 @@
 import React, { useState, useEffect } from "react";
 import styles from "@/styles/Comment.module.scss";
 
+import EmailPopup from "./EmailPopup";
+
 const comments = [
   {
     id: 1,
@@ -215,6 +217,8 @@ function Comment({ id }: { id: number }) {
   const [comment, setComment] = useState<any>(null);
   const [replyComment, setReplyComment] = useState<any>(null);
 
+  const [modalState, setModalState] = useState<string | null>(null);
+
   useEffect(() => {
     setComment(comments[id]);
     if (comments[id].reply) setReplyComment(comments[comments[id].reply! - 1]);
@@ -224,9 +228,10 @@ function Comment({ id }: { id: number }) {
 
   return (
     <section className={styles.comment}>
+      <EmailPopup modalState={modalState} setModalState={setModalState} />
       <section className={styles.user}>
-        <div className={styles.pfp} />
-        <h4>{comment.user}</h4>
+        <div className={styles.pfp} onClick={() => setModalState("submit")} />
+        <h4 onClick={() => setModalState("submit")}>{comment.user}</h4>
       </section>
       <section className={styles.review}>
         <span>{comment.date}</span>

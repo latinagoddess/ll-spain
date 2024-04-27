@@ -2,7 +2,7 @@
   .top {
     padding: 1rem 1.5rem;
 
-    background: #7564e5 url("/images/welcome_banner.png");
+    background: #faa526 url("/images/welcome_banner.png");
     background-size: cover;
 
     display: flex;
@@ -35,7 +35,7 @@
   }
 
   .bottom {
-    background: #7564e5;
+    background: #faa526;
     padding-bottom: 2.5rem;
 
     ul {
@@ -91,7 +91,7 @@
 
           .active {
             background: white;
-            color: #7564e5;
+            color: #faa526;
             border-radius: 0.2rem 0.2rem 0 0;
           }
         }

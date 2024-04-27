@@ -15,11 +15,14 @@ function EmailPopup({
   setModalState: (arg: null | string) => void;
 }) {
   const [modalOpen, setModalOpen] = useState<string | null>(null);
+  const [authOption, setAuthOption] = useState<string>("login");
 
   const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [username, setUsername] = useState("");
 
   const submit = () => {
-    if (email && email !== "") {
+    if (email && email !== "" && password && password !== "") {
       setModalOpen("success");
     }
   };
@@ -30,8 +33,20 @@ function EmailPopup({
   };
 
   useEffect(() => {
-    setModalOpen(modalState);
+    if (modalState === "register") {
+      setModalOpen("submit");
+      setAuthOption("register");
+    } else {
+      setModalOpen(modalState);
+      setAuthOption("login");
+    }
   }, [modalState]);
+
+  useEffect(() => {
+    setEmail("");
+    setPassword("");
+    setUsername("");
+  }, [authOption]);
 
   return (
     <Modal
@@ -41,16 +56,52 @@ function EmailPopup({
       aria-describedby="modal-modal-description"
     >
       {modalOpen === "submit" ? (
-        <div className={styles.modal}>
-          <h2>Please sign up</h2>
-          <p>Please enter your email and sign up.</p>
-          <input
-            type="email"
-            placeholder="Email"
-            onChange={(e) => setEmail(e.target.value)}
-          />
-          <button onClick={submit}>Submit</button>
-        </div>
+        authOption === "login" ? (
+          <div className={styles.modal}>
+            <h2>Login</h2>
+            <input
+              type="email"
+              placeholder="Email"
+              onChange={(e) => setEmail(e.target.value)}
+            />
+            <input
+              type="password"
+              placeholder="Password"
+              onChange={(e) => setPassword(e.target.value)}
+            />
+            <button onClick={submit}>Submit</button>
+            <p>
+              Don't have an account?{" "}
+              <span onClick={() => setAuthOption("register")}>
+                Register here
+              </span>
+            </p>
+          </div>
+        ) : (
+          <div className={styles.modal}>
+            <h2>Create an account</h2>
+            <input
+              type="text"
+              placeholder="Username"
+              onChange={(e) => setUsername(e.target.value)}
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              onChange={(e) => setEmail(e.target.value)}
+            />
+            <input
+              type="password"
+              placeholder="Password"
+              onChange={(e) => setPassword(e.target.value)}
+            />
+            <button onClick={submit}>Submit</button>
+            <p>
+              Already have an account?{" "}
+              <span onClick={() => setAuthOption("login")}>Login here</span>
+            </p>
+          </div>
+        )
       ) : (
         <div className={styles.modal}>
           <FaRegCheckCircle />
