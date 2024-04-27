@@ -71,7 +71,7 @@ function EmailPopup({
             />
             <button onClick={submit}>Submit</button>
             <p>
-              Don't have an account?{" "}
+              {"Don't"} have an account?{" "}
               <span onClick={() => setAuthOption("register")}>
                 Register here
               </span>
