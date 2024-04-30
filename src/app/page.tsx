@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "@/styles/Home.module.scss";
 
-import { IoTimeOutline } from "react-icons/io5";
+import { FaCalendarAlt } from "react-icons/fa";
 
 import Comment from "@/components/Comment";
 
@@ -64,6 +64,7 @@ const comments = [
         ultimate package.
       </p>
     ),
+    pfp: "messi.jpg",
   },
   {
     id: 5,
@@ -219,7 +220,7 @@ export default function Home() {
       <section className={styles.title}>
         <h1>Russian Beauty 3992</h1>
         <div className={styles.time}>
-          <IoTimeOutline />
+          <FaCalendarAlt />
           <p>July 17, 2023</p>
         </div>
       </section>

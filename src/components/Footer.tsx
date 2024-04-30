@@ -18,29 +18,23 @@ function Footer() {
         <section className={styles.about}>
           <h4>About us</h4>
           <p>
-            Our community has been around for many years and pride ourselves on
-            offering unbiased, critical discussion among people of all different
-            backgrounds. We are working every day to make sure our community is
-            one of the best.
+            Welcome to {"Spain's"} premier platform for candid and comprehensive
+            prostitute reviews. At our site, {"we're"} dedicated to providing a
+            discreet and informative space where clients can share their
+            experiences and insights with fellow patrons. Whether {"you're"} a
+            seasoned visitor or a curious newcomer, our community-driven reviews
+            offer valuable perspectives on a variety of services and providers
+            across Spain. With a commitment to integrity and respect, we strive
+            to empower individuals to make informed choices while fostering a
+            supportive environment for open dialogue. Join us in exploring the
+            diverse landscape of {"Spain's"} intimate offerings, one review at a
+            time.
           </p>
         </section>
         <section className={styles.menu}>
-          <section className={styles.title}>
-            <TfiMenuAlt />
-            <h4>Quick Navigation</h4>
-          </section>
           <ul>
-            <li onClick={() => setModalState("submit")}>Home</li>
             <li onClick={() => setModalState("submit")}>Forums</li>
             <li onClick={() => setModalState("submit")}>Contact Us</li>
-          </ul>
-        </section>
-        <section className={styles.menu}>
-          <section className={styles.title}>
-            <FaUser />
-            <h4>User Menu</h4>
-          </section>
-          <ul>
             <li onClick={() => setModalState("submit")}>Login</li>
           </ul>
         </section>

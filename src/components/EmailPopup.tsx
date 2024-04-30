@@ -105,12 +105,10 @@ function EmailPopup({
       ) : (
         <div className={styles.modal}>
           <FaRegCheckCircle />
-          <h2>Sucessfully Submitted!</h2>
-          <p>Please check your email inbox for a confirmation email.</p>
-          <p style={{ fontStyle: "italic" }}>
-            {
-              "If you haven’t received an email please wait a couple hours and check your spam"
-            }
+          <h2>Success!</h2>
+          <p>
+            Please check your email for a confirmation. If you haven't received
+            an email please wait.
           </p>
         </div>
       )}

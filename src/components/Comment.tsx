@@ -64,6 +64,7 @@ const comments = [
         ultimate package.
       </p>
     ),
+    pfp: "messi.jpg",
   },
   {
     id: 5,
@@ -230,7 +231,15 @@ function Comment({ id }: { id: number }) {
     <section className={styles.comment}>
       <EmailPopup modalState={modalState} setModalState={setModalState} />
       <section className={styles.user}>
-        <div className={styles.pfp} onClick={() => setModalState("submit")} />
+        <div
+          className={styles.pfp}
+          onClick={() => setModalState("submit")}
+          style={
+            comment.pfp
+              ? { backgroundImage: `url(/images/${comment.pfp})` }
+              : undefined
+          }
+        />
         <h4 onClick={() => setModalState("submit")}>{comment.user}</h4>
       </section>
       <section className={styles.review}>
