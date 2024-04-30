@@ -107,8 +107,8 @@ function EmailPopup({
           <FaRegCheckCircle />
           <h2>Success!</h2>
           <p>
-            Please check your email for a confirmation. If you haven't received
-            an email please wait.
+            Please check your email for a confirmation. If you {"haven't"}{" "}
+            received an email please wait.
           </p>
         </div>
       )}
