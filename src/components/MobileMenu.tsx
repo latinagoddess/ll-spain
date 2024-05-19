@@ -52,7 +52,7 @@ function MobileMenu(props: MenuProps) {
   const containerVariants = {
     open: { opacity: 1, display: "flex" },
     closing: { opacity: 0, display: "none" },
-    finished: { display: "none", opacity: 0, transform: "translate(-9999px)" },
+    finished: { display: "none", opacity: 0, transform: "translate(9999px)" },
   };
 
   useEffect(() => {
