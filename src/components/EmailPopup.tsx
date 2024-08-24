@@ -5,7 +5,7 @@ import styles from "@/styles/EmailPopup.module.scss";
 
 import Modal from "@mui/material/Modal";
 
-import { FaRegCheckCircle } from "react-icons/fa";
+import { IoIosCloseCircle } from "react-icons/io";
 
 function EmailPopup({
   modalState,
@@ -58,7 +58,9 @@ function EmailPopup({
       {modalOpen === "submit" ? (
         authOption === "login" ? (
           <div className={styles.modal}>
-            <h2>Login</h2>
+            <section className={styles.title}>
+              <h2>Login</h2>
+            </section>
             <input
               type="email"
               placeholder="Email"
@@ -69,7 +71,7 @@ function EmailPopup({
               placeholder="Password"
               onChange={(e) => setPassword(e.target.value)}
             />
-            <button onClick={submit}>Submit</button>
+            <button onClick={submit}>Send</button>
             <p>
               {"Don't"} have an account?{" "}
               <span onClick={() => setAuthOption("register")}>
@@ -79,7 +81,9 @@ function EmailPopup({
           </div>
         ) : (
           <div className={styles.modal}>
-            <h2>Create an account</h2>
+            <section className={styles.title}>
+              <h2>Create an Account</h2>
+            </section>
             <input
               type="text"
               placeholder="Username"
@@ -95,7 +99,7 @@ function EmailPopup({
               placeholder="Password"
               onChange={(e) => setPassword(e.target.value)}
             />
-            <button onClick={submit}>Submit</button>
+            <button onClick={submit}>Send</button>
             <p>
               Already have an account?{" "}
               <span onClick={() => setAuthOption("login")}>Login here</span>
@@ -104,11 +108,11 @@ function EmailPopup({
         )
       ) : (
         <div className={styles.modal}>
-          <FaRegCheckCircle />
-          <h2>Success!</h2>
+          <IoIosCloseCircle />
+          <h2>Unsuccessful</h2>
           <p>
-            Please check your email for a confirmation. If you {"haven't"}{" "}
-            received an email please wait.
+            Unsuccessful due to wrong email or password. Password change has
+            been sent to the email mentioned if it is registered.
           </p>
         </div>
       )}

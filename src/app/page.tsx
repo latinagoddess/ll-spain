@@ -203,7 +203,7 @@ const comments = [
   },
   {
     id: 15,
-    user: "spannishmugger6293",
+    user: "salaman14",
     date: "August 11th, 2023",
     comment: (
       <p>
@@ -211,6 +211,27 @@ const comments = [
         follow her art page
       </p>
     ),
+  },
+  {
+    id: 16,
+    user: "Thejuan",
+    date: "April 10th, 2024",
+    comment: (
+      <p>
+        Not sure if this thread is dead but just came from Toronto and saw her
+        ad on Leolist its the equivalent to sptty but for Canadians
+        <br />
+        <img src="/images/sptty.jpg" />
+        <br /> Guess we can say she is still alive just no longer here
+      </p>
+    ),
+  },
+  {
+    id: 17,
+    user: "Travisstraped836",
+    date: "July 20th, 2024",
+    comment: <p>👍</p>,
+    reply: 15,
   },
 ];
 

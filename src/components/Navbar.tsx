@@ -23,7 +23,7 @@ function Navbar() {
       <section className={styles.top}>
         <section className={styles.left}>
           <IoMenuOutline onClick={() => setOpenMenu(true)} />
-          <h3>SPP</h3>
+          <h3>SPPR</h3>
         </section>
         <section className={styles.rightPhone}>
           <BsChatLeftText onClick={() => setModalState("submit")} />

@@ -18,17 +18,16 @@ function Footer() {
         <section className={styles.about}>
           <h4>About us</h4>
           <p>
-            Welcome to {"Spain's"} premier platform for candid and comprehensive
-            prostitute reviews. At our site, {"we're"} dedicated to providing a
-            discreet and informative space where clients can share their
-            experiences and insights with fellow patrons. Whether {"you're"} a
-            seasoned visitor or a curious newcomer, our community-driven reviews
-            offer valuable perspectives on a variety of services and providers
-            across Spain. With a commitment to integrity and respect, we strive
-            to empower individuals to make informed choices while fostering a
-            supportive environment for open dialogue. Join us in exploring the
-            diverse landscape of {"Spain's"} intimate offerings, one review at a
-            time.
+            Welcome to {"Spain’s"} Premier Platform Reviews. At our site,{" "}
+            {"we're"} dedicated to providing a discreet and informative space
+            where clients can share their experiences and insights with fellow
+            patrons. Whether {"you're"} a seasoned visitor or a curious
+            newcomer, our community-driven reviews offer valuable perspectives
+            on a variety of services and providers across Spain. With a
+            commitment to integrity and respect, we strive to empower
+            individuals to make informed choices while fostering a supportive
+            environment for open dialogue. Join us in exploring the diverse
+            landscape of {"Spain's"} intimate offerings, one review at a time.
           </p>
         </section>
         <section className={styles.menu}>

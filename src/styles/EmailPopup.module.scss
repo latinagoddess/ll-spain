@@ -1,4 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 .modal {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
   position: absolute;
   left: 50%;
   top: 50%;
@@ -12,25 +18,35 @@
   flex-direction: column;
 
   background-color: rgb(233, 240, 243);
-
-  padding: 2rem 1rem;
   border-radius: 0.4rem;
+
+  outline: none;
 
   gap: 1rem;
 
   svg {
     width: 5rem;
     height: 5rem;
-    color: #faa526;
+    color: #cf1f1f;
 
+    margin-top: 2rem;
     margin-bottom: 1rem;
   }
 
-  h2 {
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.5rem;
-    text-align: center;
+  .title {
+    width: 100%;
+    padding: 2rem;
+    background-color: #faa526;
+
+    border-radius: 0.4rem 0.4rem 0 0;
+
+    h2 {
+      color: white;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 2rem;
+      text-align: center;
+    }
   }
 
   p {
@@ -38,9 +54,13 @@
     font-style: normal;
     font-size: 0.8rem;
     text-align: center;
+    width: 80%;
+
+    margin-bottom: 1.5rem;
 
     span {
       color: #faa526;
+      cursor: pointer;
     }
   }
 
@@ -49,8 +69,11 @@
     max-width: 20rem;
     padding: 0.5rem 1rem;
     background-color: rgb(233, 240, 243);
-    border: 2px solid rgb(129, 129, 129);
+    border: none;
+    border-bottom: 2px solid rgb(129, 129, 129);
     border-radius: 0.25rem;
+
+    margin: 0.25rem 0;
 
     color: black;
   }
@@ -63,6 +86,8 @@
     border: none;
     background-color: #faa526;
     color: white;
+
+    margin-top: 0.5rem;
 
     cursor: pointer;
   }
