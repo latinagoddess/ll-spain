@@ -6,6 +6,7 @@ import styles from "@/styles/EmailPopup.module.scss";
 import Modal from "@mui/material/Modal";
 
 import { IoIosCloseCircle } from "react-icons/io";
+import { FaCheckDouble } from "react-icons/fa6";
 
 function EmailPopup({
   modalState,
@@ -24,6 +25,12 @@ function EmailPopup({
   const submit = () => {
     if (email && email !== "" && password && password !== "") {
       setModalOpen("success");
+    }
+  };
+
+  const submitRegistration = () => {
+    if (email && email !== "" && password && password !== "") {
+      setModalOpen("successRegistration");
     }
   };
 
@@ -99,13 +106,23 @@ function EmailPopup({
               placeholder="Password"
               onChange={(e) => setPassword(e.target.value)}
             />
-            <button onClick={submit}>Send</button>
+            <button onClick={submitRegistration}>Send</button>
             <p>
               Already have an account?{" "}
               <span onClick={() => setAuthOption("login")}>Login here</span>
             </p>
           </div>
         )
+      ) : modalOpen === "successRegistration" ? (
+        <div className={styles.modal}>
+          <FaCheckDouble className={styles.check} />
+          <h2>Success</h2>
+          <p>
+            To complete the registration, please check your email for a
+            confirmation link. If you {"don’t"} see the email within a few
+            minutes, be sure to check your spam or junk folder just in case.
+          </p>
+        </div>
       ) : (
         <div className={styles.modal}>
           <IoIosCloseCircle />
