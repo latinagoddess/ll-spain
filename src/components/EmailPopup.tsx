@@ -115,12 +115,12 @@ function EmailPopup({
         )
       ) : modalOpen === "successRegistration" ? (
         <div className={styles.modal}>
-          <FaCheckDouble className={styles.check} />
-          <h2>Success</h2>
+          <IoIosCloseCircle />
+          <h2>Error Code: REG-001</h2>
           <p>
-            To complete the registration, please check your email for a
-            confirmation link. If you {"don’t"} see the email within a few
-            minutes, be sure to check your spam or junk folder just in case.
+            "Registration Error: Access Restricted. This service is only
+            available to users located in Spain. Please ensure you are accessing
+            this site from a valid Spanish IP address.
           </p>
         </div>
       ) : (
