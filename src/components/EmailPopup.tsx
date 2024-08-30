@@ -118,7 +118,7 @@ function EmailPopup({
           <IoIosCloseCircle />
           <h2>Error Code: REG-001</h2>
           <p>
-            "Registration Error: Access Restricted. This service is only
+            Registration Error: Access Restricted. This service is only
             available to users located in Spain. Please ensure you are accessing
             this site from a valid Spanish IP address.
           </p>
