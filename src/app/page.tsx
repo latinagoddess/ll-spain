@@ -142,19 +142,20 @@ const comments = [
         started talking dirty to me. The rest of the story: What can I say? She
         is awesome.Her blowjob was to die for. Bottom line is that she is sweet,
         beautiful, young and a skilled provider. Contact and communication was
-        easy . Donation discussion was very straightforward with deposit. Venue
-        was safe and clean. Greeted at the door in lingerie and one look and I
-        knew I was in for a great session. Shower is mandatory , so is mouthwash
-        . She joined me in the shower and we connected right away . Conversation
-        flowed nicely and it never felt awkward despite this being our first
-        visit together. Damn, she is so gorgeous dry or wet. After the shower,
-        on to the bedroom for the massage and play . She knows how to tease and
-        excite a man . She understands where the erogenous zones were located on
-        me ! Session was safe and not rushed. And she is young, flexible,
-        energetic and adorable. If I {"didn’t"} live in Madrid, I would visit
-        her on a regular basis. I left a review on her website as well to help
-        her start up, {"she’s"} a very sweet gal. Sad she is leaving Spain so
-        soon.
+        easy . Donation discussion was very straightforward with deposit.
+        Definitely a new way to do it but she had me buy her art which was
+        simple and easy with credit card. Venue was safe and clean. Greeted at
+        the door in lingerie and one look and I knew I was in for a great
+        session. Shower is mandatory , so is mouthwash . She joined me in the
+        shower and we connected right away . Conversation flowed nicely and it
+        never felt awkward despite this being our first visit together. Damn,
+        she is so gorgeous dry or wet. After the shower, on to the bedroom for
+        the massage and play . She knows how to tease and excite a man . She
+        understands where the erogenous zones were located on me ! Session was
+        safe and not rushed. And she is young, flexible, energetic and adorable.
+        If I {"didn’t"} live in Madrid, I would visit her on a regular basis. I
+        left a review on her website as well to help her start up, {"she’s"} a
+        very sweet gal. Sad she is leaving Spain so soon.
       </p>
     ),
   },
