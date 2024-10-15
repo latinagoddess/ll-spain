@@ -235,6 +235,17 @@ const comments = [
     comment: <p>👍</p>,
     reply: 16,
   },
+  {
+    id: 18,
+    user: "salaman14",
+    date: "October 24th, 2024",
+    comment: (
+      <p>
+        She just updated new pics on her site she looks even better now which should not be
+        possible{"<3_<3"}
+      </p>
+    ),
+  },
 ];
 
 function Comment({ id }: { id: number }) {
