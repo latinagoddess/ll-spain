@@ -13,16 +13,16 @@ const comments = [
     comment: (
       <p>
         Has anyone seen this girl? {"I’m"} hoping {"she’s"} real{" "}
-        <a href="https://www.eurogirlsescort.com/escort/ally/59726323/?list=aso9v7">
-          https://www.eurogirlsescort.com/escort/ally/59726323/?list=aso9v7
+        <a href="https://www.eurogirlsescort.com/escort/anna/59726323/?list=aso9v7">
+          https://www.eurogirlsescort.com/escort/anna/59726323/?list=aso9v7
         </a>{" "}
         and{" "}
-        <a href="https://m.happyescorts.com/ally-e149249">
-          https://m.happyescorts.com/ally-e149249
+        <a href="https://m.happyescorts.com/anna-e149249">
+          https://m.happyescorts.com/anna-e149249
         </a>{" "}
         she also has a website{" "}
-        <a href="https://therussianbeauty.com/">
-          https://therussianbeauty.com/
+        <a href="https://therussianprincess.com/">
+          https://therussianprincess.com/
         </a>
         , I asked for more information but she is new in Barcelona and no
         reviews on sexomercadobcn or here
@@ -60,7 +60,7 @@ const comments = [
         paper and in bed! If you treat her with respect you will not be
         disappointed. Drug free, 100% clean, she is passionate kisser, her
         demeanor and desire to be a compassionate lover/companion overcame the
-        obstacle of sex without condom which I was hoping. For me Ally is the
+        obstacle of sex without condom which I was hoping. For me she is the
         ultimate package.
       </p>
     ),
@@ -132,8 +132,8 @@ const comments = [
     comment: (
       <p>
         She is indeed legit. Her website{" "}
-        <a href="https://therussianbeauty.com/">
-          https://therussianbeauty.com/
+        <a href="https://therussianprincess.com/">
+          https://therussianprincess.com/
         </a>{" "}
         is very easy to navigate through. She made me feel like I was the only
         man in the world and I had her undivided attention and adoration for the
