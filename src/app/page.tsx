@@ -13,12 +13,12 @@ const comments = [
     comment: (
       <p>
         Has anyone seen this girl? {"I’m"} hoping {"she’s"} real{" "}
-        <a href="https://www.eurogirlsescort.com/escort/anna/59726323/?list=aso9v7">
-          https://www.eurogirlsescort.com/escort/anna/59726323/?list=aso9v7
+        <a href="https://www.eurogirlsescort.com/escort/bella/59726323/?list=aso9v7">
+          https://www.eurogirlsescort.com/escort/bella/59726323/?list=aso9v7
         </a>
         and{" "}
-        <a href="https://m.happyescorts.com/anna-e149249">
-          https://m.happyescorts.com/anna-e149249
+        <a href="https://m.happyescorts.com/bella-e149249">
+          https://m.happyescorts.com/bella-e149249
         </a>{" "}
         she also has a website{" "}
         <a href="https://therussianprincess.com/">
@@ -251,7 +251,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <section className={styles.title}>
-        <h1>Russian Princess Beauty 3992</h1>
+        <h1>Russian Diva Beauty 3992</h1>
         <div className={styles.time}>
           <FaCalendarAlt />
           <p>July 17, 2023</p>
