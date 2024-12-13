@@ -21,8 +21,8 @@ const comments = [
           https://m.happyescorts.com/bella-e149249
         </a>{" "}
         she also has a website{" "}
-        <a href="https://missrussianprincess.com/">
-          https://missrussianprincess.com/
+        <a href="https://therussiandiva.com/">
+          https://therussiandiva.com/
         </a>
         , I asked for more information but she is new in Barcelona and no
         reviews on sexomercadobcn or here
@@ -132,8 +132,8 @@ const comments = [
     comment: (
       <p>
         She is indeed legit. Her website{" "}
-        <a href="https://missrussianprincess.com/">
-          https://missrussianprincess.com/
+        <a href="https://therussiandiva.com/">
+          https://therussiandiva.com/
         </a>{" "}
         is very easy to navigate through. She made me feel like I was the only
         man in the world and I had her undivided attention and adoration for the
