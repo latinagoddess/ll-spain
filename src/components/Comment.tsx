@@ -9,7 +9,7 @@ const comments = [
   {
     id: 1,
     user: "Travisstraped836",
-    date: "July 17, 2023",
+    date: "July 17, 2024",
     comment: (
       <p>
         Has anyone seen this girl? {"I’m"} hoping {"she’s"} real{" "}
@@ -32,13 +32,13 @@ const comments = [
   {
     id: 2,
     user: "pastfuntimes538",
-    date: "July 18th, 2023",
+    date: "July 18th, 2024",
     comment: <p>Se preguntaba la misma jaja</p>,
   },
   {
     id: 3,
     user: "specialservicecollector6917",
-    date: "July 19th, 2023",
+    date: "July 19th, 2024",
     comment: (
       <p>
         I remember when texting her she mentioned that she will add reviews soon
@@ -50,7 +50,7 @@ const comments = [
   {
     id: 4,
     user: "messifan82",
-    date: "July 21th, 2023",
+    date: "July 21th, 2024",
     comment: (
       <p>
         Great risk comes with great reward! I had the pleasure of meeting this
@@ -69,7 +69,7 @@ const comments = [
   {
     id: 5,
     user: "Travisstraped836",
-    date: "July 21th, 2023",
+    date: "July 21th, 2024",
     comment: (
       <p>
         Wow thanks for the review! Just saw she posted on{" "}
@@ -86,7 +86,7 @@ const comments = [
   {
     id: 6,
     user: "lavishlover538",
-    date: "July 22th, 2023",
+    date: "July 22th, 2024",
     comment: (
       <p>Lo probaré este fin de semana y te diré si estoy de acuerdo con</p>
     ),
@@ -95,7 +95,7 @@ const comments = [
   {
     id: 7,
     user: "piemuncher0187",
-    date: "July 22th, 2023",
+    date: "July 22th, 2024",
     comment: (
       <p>
         Sorry english not so good but i saw her for 1 hour, she is real deal i
@@ -106,7 +106,7 @@ const comments = [
   {
     id: 8,
     user: "loosygoosy5391",
-    date: "July 25th, 2023",
+    date: "July 25th, 2024",
     comment: (
       <p>
         She just added reviews section on her website so it should solve this
@@ -117,7 +117,7 @@ const comments = [
   {
     id: 9,
     user: "pastfuntimes3",
-    date: "July 26th, 2023",
+    date: "July 26th, 2024",
     comment: (
       <p>
         muy real, pronto estaré arruinado financieramente tal vez no debería
@@ -128,7 +128,7 @@ const comments = [
   {
     id: 10,
     user: "distantstar9",
-    date: "July 27th, 2023",
+    date: "July 27th, 2024",
     comment: (
       <p>
         She is indeed legit. Her website{" "}
@@ -162,7 +162,7 @@ const comments = [
   {
     id: 11,
     user: "diddlysenior",
-    date: "July 27th, 2023",
+    date: "July 27th, 2024",
     comment: (
       <p>
         Yup she is real but very expensive, unfortunately will not be able to
@@ -174,7 +174,7 @@ const comments = [
   {
     id: 12,
     user: "salvadorianpirate0854",
-    date: "July 27th, 2023",
+    date: "July 27th, 2024",
     comment: (
       <p>Todavía esperando su respuesta en WhatsApp parece muy ocupada</p>
     ),
@@ -182,7 +182,7 @@ const comments = [
   {
     id: 13,
     user: "Travisstraped836",
-    date: "July 28th, 2023",
+    date: "July 28th, 2024",
     comment: (
       <p>
         Just saw her for a 30 minute session to get my feet wet, she did live up
@@ -194,7 +194,7 @@ const comments = [
   {
     id: 14,
     user: "spannishmugger6293",
-    date: "August 10th, 2023",
+    date: "August 10th, 2024",
     comment: (
       <p>
         Oficialmente amo a las chicas rusas, ella es muy cariñosa y flexible por
@@ -205,7 +205,7 @@ const comments = [
   {
     id: 15,
     user: "salaman14",
-    date: "August 11th, 2023",
+    date: "August 11th, 2024",
     comment: (
       <p>
         She used to have instagram but I think she deactivated it {":("} but I
