@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Cabin({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sptty Euro Reviews",
+  title: "SPPR Euro Reviews",
   description: "Russian Beauty Reviews",
 };
 
