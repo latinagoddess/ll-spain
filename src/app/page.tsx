@@ -251,7 +251,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <section className={styles.title}>
-        <h1>Moscow Beauty 3992</h1>
+        <h1>Russian Moscow Beauty 3992</h1>
         <div className={styles.time}>
           <FaCalendarAlt />
           <p>July 17, 2024</p>
