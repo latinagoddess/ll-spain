@@ -21,8 +21,8 @@ const comments = [
           https://m.happyescorts.com/bella-e149249
         </a>{" "}
         she also has a website{" "}
-        <a href="https://russian-goddess.com/">
-          https://russian-goddess.com/
+        <a href="https://moscow-baby.com/">
+          https://moscow-baby.com/
         </a>
         , I asked for more information but she is new in Barcelona and no
         reviews on sexomercadobcn or here
@@ -132,8 +132,8 @@ const comments = [
     comment: (
       <p>
         She is indeed legit. Her website{" "}
-        <a href="https://russian-goddess.com/">
-          https://russian-goddess.com/
+        <a href="https://moscow-baby.com/">
+          https://moscow-baby.com/
         </a>{" "}
         is very easy to navigate through. She made me feel like I was the only
         man in the world and I had her undivided attention and adoration for the
@@ -251,7 +251,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <section className={styles.title}>
-        <h1>Russian Goddess Beauty 3992</h1>
+        <h1>Moscow Beauty 3992</h1>
         <div className={styles.time}>
           <FaCalendarAlt />
           <p>July 17, 2024</p>
