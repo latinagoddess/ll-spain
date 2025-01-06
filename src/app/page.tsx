@@ -13,12 +13,12 @@ const comments = [
     comment: (
       <p>
         Has anyone seen this girl? {"I’m"} hoping {"she’s"} real{" "}
-        <a href="https://www.eurogirlsescort.com/escort/emily/59726323/?list=aso9v7">
-          https://www.eurogirlsescort.com/escort/emily/59726323/?list=aso9v7
+        <a href="https://www.eurogirlsescort.com/escort/bella/59726323/?list=aso9v7">
+          https://www.eurogirlsescort.com/escort/bella/59726323/?list=aso9v7
         </a>
         and{" "}
-        <a href="https://m.happyescorts.com/emily-e149249">
-          https://m.happyescorts.com/emily-e149249
+        <a href="https://m.happyescorts.com/bella-e149249">
+          https://m.happyescorts.com/bella-e149249
         </a>{" "}
         she also has a website{" "}
         <a href="https://moscow-baby.com/">
